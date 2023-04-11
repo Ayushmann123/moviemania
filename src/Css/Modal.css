@@ -1,0 +1,161 @@
+
+
+.modal-container{
+position: fixed;
+top: 0px;
+/* position: relative; */
+left:30%;
+border-radius: 19px;
+overflow-y: auto;
+
+height: 100%;
+width: 40%;
+    /* margin: 5 rem; */
+    /* margin-bottom: 50px; */
+    /* border: 6px solid red; */
+}
+
+.model-wrapper{
+    position: fixed;
+    max-height: 100%;
+    /* width: 100%; */
+   /* height: 100vh; */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    /* border: 2px solid yellow; */
+    background-color: rgba(189, 189, 189, 0.9);
+}
+
+.img_top{
+
+ height: 29rem; 
+ width: 70%;
+ border-radius: 5px;
+ 
+}
+
+.imgContainer{
+display: flex;
+justify-content: center;
+    /* border: 4px solid orange; */
+    background-color: black;
+}
+.modal-container::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.cross_btn{
+    height: 30px;
+    right: 480px;
+    top: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    /* border: 5px solid green; */
+    position: fixed;
+}
+.details{
+    /* border: 2px solid white; */
+    height: 40%;
+    display: flex;
+    color: white;
+}
+
+.synopsis{
+
+    /* border: 4px solid darkcyan; */
+    height: 100%;
+    padding: 18px;
+
+    width: 60%;
+    background-color: black;
+
+
+}
+
+.cast{
+    /* border: 4px solid hotpink; */
+    height: 100%;
+    width: 40%;
+     justify-content: center;
+    background-color: black;
+padding: 18px;
+
+}
+
+.castlist{
+    padding: 0px;
+    /* display: flex; */
+    /* border: 3px solid skyblue; */
+    background-color:     #141414;
+
+    color: white;
+}
+
+.listingcast{
+    font-size: 11px;
+    /* border: 3px solid violet; */
+    margin: 1px;
+    /* display: inline; */
+color: white;
+}
+.rating{
+    font-weight: bold;
+}
+.title{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.h6{
+    /* border: 3px solid firebrick; */
+    font-size: 19px;
+    margin-left: 0px;
+}
+
+.recommendation{
+    /* border: 3px solid chartreuse; */
+    /* height: 350px; */
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+
+.cardWtext{
+    margin: 10px;
+    height: 490px;
+    width: 150px;
+    background-color:     #141414
+
+
+}
+p{
+    color: white;
+    background-color:     #141414
+
+}
+h4{
+color: white;
+font-weight: bold;
+}
+
+@media only screen and (min-width: 300px) and (max-width:1399px) {
+    .modal-container{
+        position: absolute;
+        top: 0px;
+        /* position: relative; */
+        /* left:30%; */
+        border-radius: 19px;
+        overflow-y: auto;
+        
+        height: 100%;
+        width: 100%;
+            /* margin: 5 rem; */
+            /* margin-bottom: 50px; */
+            /* border: 6px solid red; */
+        }
+
+
+}

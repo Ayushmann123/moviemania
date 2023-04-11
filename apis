@@ -1,0 +1,14 @@
+
+
+https://api.themoviedb.org/3/movie/popular?api_key=<<api_key>>&language=en-US&page=1
+
+
+
+"img src": "https://image.tmdb.org/t/p/w500"
+
+APi search: "
+https://api.themoviedb.org/3/search/movie?api_key=459ff3f19f6d1e5ee7fc382cf7fab81a&language=en-US&page=1&include_adult=true"
+
+
+
+api_url =  https://api.themoviedb.org/3/movie/popular?api_key=459ff3f19f6d1e5ee7fc382cf7fab81a

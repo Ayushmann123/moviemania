@@ -1,0 +1,223 @@
+.nav-link{
+    color: azure;
+    font-size: 1.5em;
+    z-index: -1;
+
+}
+
+.logo-image{
+ margin-left: 10px;
+ margin-bottom: 1px;
+ position: relative;
+ 
+}
+
+.nav {
+
+    top: 0px;
+    background: black;
+    position: fixed;
+    width: 100%;
+
+}
+.img-fluid{
+height: 60px;
+
+z-index: -1;
+
+}
+
+.div{
+
+    position: sticky;
+    bottom: 473.3px;
+
+
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    width: 300px;
+    margin-top: 12px;
+    margin-left: 65px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 20px;
+    color: white;
+    background-color:     #141414;
+    height: 33px;
+
+
+    /* visibility: hidden; */
+
+
+}
+
+
+
+
+.input-expand{
+    width: 750px;
+    transform: scale(1.25) translateY(20px);
+    transition: transform 800ms;
+    margin-left: 30%;
+    color: white;
+    background-color:     #141414;
+
+
+}
+
+
+.button-search{
+    position: absolute;
+    border: 2px solid green;
+
+margin-right: 0px;    
+}
+
+.searchCont{
+    display: flex;
+    /* width: 70%; */
+    flex-direction: row;
+    justify-content: center;
+    
+}
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    .input{
+        width: 300px;
+        margin-top: 12px;
+        margin-left: 125px;
+        position: relative;
+        background-color: #fff;
+        border-radius: 20px;
+        color: white;
+        background-color:     #141414;
+        height: 33px;
+    
+    
+        /* visibility: hidden; */
+    
+    
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+    .input{
+        width: 200px;
+        margin-top: 12px;
+        /* margin-left: 65px; */
+        position: relative;
+        background-color: #fff;
+        border-radius: 20px;
+        color: white;
+        background-color:     #141414;
+        height: 33px;
+    
+    
+        /* visibility: hidden; */
+    
+    
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 913px) and (max-width: 1350px) {
+    .input-expand{
+        width: 450px;
+        transform: scale(1.25) translateY(10px);
+        transition: transform 800ms;
+        margin-left: 30%;
+        color: white;
+        background-color:     #141414;
+    
+    
+    }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 913px) {
+    .input-expand{
+        width: 350px;
+        transform: scale(1.25) translateY(10px);
+        transition: transform 800ms;
+        margin-left: 30%;
+        color: white;
+        background-color:     #141414;
+    
+    
+    }
+
+}
+
+@media only screen and (min-width: 584px) and (max-width: 740px) {
+    .input-expand{
+        width: 275px;
+        transform: scale(1.25) translateY(10px);
+        transition: transform 800ms;
+        margin-left: 25%;
+        color: white;
+        background-color:     #141414;
+    
+    
+    }
+}
+
+
+@media only screen and (min-width: 500px) and (max-width: 584px) {
+    .input-expand{
+        width: 205px;
+        transform: scale(1.25) translateY(10px);
+        transition: transform 800ms;
+        margin-left: 25%;
+        color: white;
+        background-color:     #141414;
+    
+    
+    }
+}
+
+@media only screen and (min-width: 446px) and (max-width: 500px) {
+
+    .input-expand{
+        width: 140px;
+        transform: scale(1.25) translateY(10px);
+        transition: transform 800ms;
+        margin-left: 25%;
+        color: white;
+    background-color:     #141414;
+    
+    
+    }
+}
+@media only screen and (min-width: 381px) and (max-width: 446px) {
+    .input-expand{
+        width: 100px;
+        transform: scale(1.25) translateY(10px);
+        transition: transform 800ms;
+        margin-left: 25%;
+        color: white;
+        background-color:     #141414;
+    
+    
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 381px) {
+    .input-expand{
+        width: 70px;
+        transform: scale(1.25) translateY(10px);
+        transition: transform 800ms;
+        margin-left: 25%;
+        color: white;
+        background-color:     #141414;
+    
+    
+    }
+}
